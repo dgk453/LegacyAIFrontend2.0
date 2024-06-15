@@ -57,21 +57,23 @@ function App(): React.JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
-            <Button title='Submit' />
+          <Section title="Login">
+            <Text>Filler content goes here</Text>
           </Section>
-          <Section title="See Your Changes">
+          <Section title="Join">
             
           </Section>
-          <Section title="Debug">
+          <Section title="Input">
             
           </Section>
           <Section title="Learn More">
-            Read the docs to discover what to do next:
+            Contact us for more information
           </Section>
           
         </View>
+        <Button title='Submit'></Button>
       </ScrollView>
+      
     </SafeAreaView>
   );
 }
