@@ -38,4 +38,4 @@ const DebugInstructions: () => Node = Platform.select({
   ),
 });
 
-export default DebugInstructions;
+export default DebugInstructions;npm install tamagui react-native-kitten
